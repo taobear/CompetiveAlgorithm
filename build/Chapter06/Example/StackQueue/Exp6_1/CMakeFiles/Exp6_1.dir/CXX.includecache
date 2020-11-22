@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_1/ConcurrencySimulator.cpp
+ctype.h
+-
+stdio.h
+-
+
