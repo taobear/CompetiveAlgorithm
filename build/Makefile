@@ -122,6 +122,45 @@ Exp6_1/fast:
 	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_1\CMakeFiles\Exp6_1.dir\build.make Chapter06/Example/StackQueue/Exp6_1/CMakeFiles/Exp6_1.dir/build
 .PHONY : Exp6_1/fast
 
+#=============================================================================
+# Target rules for targets named Exp6_2
+
+# Build rule for target.
+Exp6_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Exp6_2
+.PHONY : Exp6_2
+
+# fast build rule for target.
+Exp6_2/fast:
+	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_2\CMakeFiles\Exp6_2.dir\build.make Chapter06/Example/StackQueue/Exp6_2/CMakeFiles/Exp6_2.dir/build
+.PHONY : Exp6_2/fast
+
+#=============================================================================
+# Target rules for targets named Exp6_3
+
+# Build rule for target.
+Exp6_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Exp6_3
+.PHONY : Exp6_3
+
+# fast build rule for target.
+Exp6_3/fast:
+	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_3\CMakeFiles\Exp6_3.dir\build.make Chapter06/Example/StackQueue/Exp6_3/CMakeFiles/Exp6_3.dir/build
+.PHONY : Exp6_3/fast
+
+#=============================================================================
+# Target rules for targets named Exp6_4
+
+# Build rule for target.
+Exp6_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Exp6_4
+.PHONY : Exp6_4
+
+# fast build rule for target.
+Exp6_4/fast:
+	$(MAKE) -f Chapter06\Example\List\Exp6_4\CMakeFiles\Exp6_4.dir\build.make Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/build
+.PHONY : Exp6_4/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -131,6 +170,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Exp6_1
+	@echo ... Exp6_2
+	@echo ... Exp6_3
+	@echo ... Exp6_4
 .PHONY : help
 
 

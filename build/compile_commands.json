@@ -3,5 +3,35 @@
   "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/StackQueue/Exp6_1",
   "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_1.dir\\ConcurrencySimulator.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\StackQueue\\Exp6_1\\ConcurrencySimulator.cpp",
   "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_1/ConcurrencySimulator.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/StackQueue/Exp6_2",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_2.dir\\test_Rails.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\StackQueue\\Exp6_2\\test_Rails.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_2/test_Rails.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/StackQueue/Exp6_2",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_2.dir\\Rails.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\StackQueue\\Exp6_2\\Rails.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_2/Rails.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/StackQueue/Exp6_3",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_3.dir\\test_MatrixMultiplication.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\StackQueue\\Exp6_3\\test_MatrixMultiplication.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_3/test_MatrixMultiplication.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/StackQueue/Exp6_3",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_3.dir\\MatrixMultiplication.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\StackQueue\\Exp6_3\\MatrixMultiplication.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_3/MatrixMultiplication.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/List/Exp6_4",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_4.dir\\test_BrokenKeyBoard.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\List\\Exp6_4\\test_BrokenKeyBoard.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/List/Exp6_4/test_BrokenKeyBoard.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/List/Exp6_4",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_4.dir\\BrokenKeyBoard.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\List\\Exp6_4\\BrokenKeyBoard.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/List/Exp6_4/BrokenKeyBoard.cpp"
 }
 ]

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_3/MatrixMultiplication.cpp
+MatrixMultiplication.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_3/MatrixMultiplication.h
+string.h
+-
+ctype.h
+-
+stdio.h
+-
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_3/MatrixMultiplication.h
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_3/test_MatrixMultiplication.cpp
+MatrixMultiplication.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/StackQueue/Exp6_3/MatrixMultiplication.h
+stdio.h
+-
+
