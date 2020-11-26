@@ -161,6 +161,19 @@ Exp6_4/fast:
 	$(MAKE) -f Chapter06\Example\List\Exp6_4\CMakeFiles\Exp6_4.dir\build.make Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/build
 .PHONY : Exp6_4/fast
 
+#=============================================================================
+# Target rules for targets named Exp6_5
+
+# Build rule for target.
+Exp6_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Exp6_5
+.PHONY : Exp6_5
+
+# fast build rule for target.
+Exp6_5/fast:
+	$(MAKE) -f Chapter06\Example\List\Exp6_5\CMakeFiles\Exp6_5.dir\build.make Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/build
+.PHONY : Exp6_5/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -173,6 +186,7 @@ help:
 	@echo ... Exp6_2
 	@echo ... Exp6_3
 	@echo ... Exp6_4
+	@echo ... Exp6_5
 .PHONY : help
 
 

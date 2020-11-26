@@ -291,16 +291,19 @@ clean: Chapter06/Example/StackQueue/Exp6_3/CMakeFiles/Exp6_3.dir/clean
 
 # Convenience name for "all" pass in the directory.
 Chapter06/Example/List/all: Chapter06/Example/List/Exp6_4/all
+Chapter06/Example/List/all: Chapter06/Example/List/Exp6_5/all
 
 .PHONY : Chapter06/Example/List/all
 
 # Convenience name for "clean" pass in the directory.
 Chapter06/Example/List/clean: Chapter06/Example/List/Exp6_4/clean
+Chapter06/Example/List/clean: Chapter06/Example/List/Exp6_5/clean
 
 .PHONY : Chapter06/Example/List/clean
 
 # Convenience name for "preinstall" pass in the directory.
 Chapter06/Example/List/preinstall: Chapter06/Example/List/Exp6_4/preinstall
+Chapter06/Example/List/preinstall: Chapter06/Example/List/Exp6_5/preinstall
 
 .PHONY : Chapter06/Example/List/preinstall
 
@@ -356,6 +359,61 @@ Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/clean:
 
 # clean rule for target.
 clean: Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Chapter06/Example/List/Exp6_5
+
+# Convenience name for "all" pass in the directory.
+Chapter06/Example/List/Exp6_5/all: Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/all
+
+.PHONY : Chapter06/Example/List/Exp6_5/all
+
+# Convenience name for "clean" pass in the directory.
+Chapter06/Example/List/Exp6_5/clean: Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/clean
+
+.PHONY : Chapter06/Example/List/Exp6_5/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Chapter06/Example/List/Exp6_5/preinstall:
+
+.PHONY : Chapter06/Example/List/Exp6_5/preinstall
+
+#=============================================================================
+# Target rules for target Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir
+
+# All Build rule for target.
+Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/all:
+	$(MAKE) -f Chapter06\Example\List\Exp6_5\CMakeFiles\Exp6_5.dir\build.make Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/depend
+	$(MAKE) -f Chapter06\Example\List\Exp6_5\CMakeFiles\Exp6_5.dir\build.make Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=12,13,14 "Built target Exp6_5"
+.PHONY : Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/all
+
+# Include target in all.
+all: Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles 0
+.PHONY : Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/rule
+
+# Convenience name for target.
+Exp6_5: Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/rule
+
+.PHONY : Exp6_5
+
+# clean rule for target.
+Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/clean:
+	$(MAKE) -f Chapter06\Example\List\Exp6_5\CMakeFiles\Exp6_5.dir\build.make Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/clean
+.PHONY : Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/clean
+
+# clean rule for target.
+clean: Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/clean
 
 .PHONY : clean
 

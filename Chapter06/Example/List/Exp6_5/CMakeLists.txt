@@ -1,0 +1,1 @@
+add_executable(Exp6_5 test_BoxesInALine.cpp BoxesInALine.cpp)
