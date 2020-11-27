@@ -38,14 +38,14 @@ void OperateBox(OperationUint32Enum opr, int X, int Y)
     }
 
     if (isInvert && opr != OPR_SWAP_X_AND_Y) {
-        opr = OPR_BUTT - opr;
+        opr = OPR_MOVE_X2Y_RIGHT - opr;
     }
 
     if (opr == OPR_MOVE_X2Y_LEFT && list[Y].left == X) {
         return;
     }
 
-    if (opr == OPR_MOVE_X2Y_RIGHT && list[Y].right == Y) {
+    if (opr == OPR_MOVE_X2Y_RIGHT && list[Y].right == X) {
         return;
     }
 
@@ -77,7 +77,15 @@ void InvertBox()
 
 void PrintLinkBox()
 {
-    for (int i = list[0].right; i != 0; i = list[0].right) {
-        printf(" %d", i);
+    if (!isInvert) {
+        for (int i = list[0].right; i != 0; i = list[i].right) {
+            printf(" %d", i);
+        }
+    } else {
+        for (int i = list[0].left; i != 0; i = list[i].left) {
+            printf(" %d", i);
+        }
     }
+
+    printf("\n");
 }
