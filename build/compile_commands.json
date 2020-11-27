@@ -43,5 +43,15 @@
   "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/List/Exp6_5",
   "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_5.dir\\BoxesInALine.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\List\\Exp6_5\\BoxesInALine.cpp",
   "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/List/Exp6_5/BoxesInALine.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_6",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_6.dir\\test_DroppingBalls.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\Tree\\Exp6_6\\test_DroppingBalls.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_6/test_DroppingBalls.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_6",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_6.dir\\DroppingBalls.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\Tree\\Exp6_6\\DroppingBalls.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_6/DroppingBalls.cpp"
 }
 ]

@@ -23,3 +23,8 @@ C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/
 C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir
 C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/List/Exp6_5/CMakeFiles/edit_cache.dir
 C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/List/Exp6_5/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_6/CMakeFiles/Exp6_6.dir
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_6/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_6/CMakeFiles/rebuild_cache.dir

@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles\progress.marks
-	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 all
+	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\Chapter06\Example\Tree\CMakeFiles\progress.marks
+	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 Chapter06/Example/Tree/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 Chapter06/Example/Tree/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,96 +96,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 Chapter06/Example/Tree/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(MAKE) -f CMakeFiles\Makefile2 Chapter06/Example/Tree/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
 	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named Exp6_1
-
-# Build rule for target.
-Exp6_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Exp6_1
-.PHONY : Exp6_1
-
-# fast build rule for target.
-Exp6_1/fast:
-	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_1\CMakeFiles\Exp6_1.dir\build.make Chapter06/Example/StackQueue/Exp6_1/CMakeFiles/Exp6_1.dir/build
-.PHONY : Exp6_1/fast
-
-#=============================================================================
-# Target rules for targets named Exp6_2
-
-# Build rule for target.
-Exp6_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Exp6_2
-.PHONY : Exp6_2
-
-# fast build rule for target.
-Exp6_2/fast:
-	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_2\CMakeFiles\Exp6_2.dir\build.make Chapter06/Example/StackQueue/Exp6_2/CMakeFiles/Exp6_2.dir/build
-.PHONY : Exp6_2/fast
-
-#=============================================================================
-# Target rules for targets named Exp6_3
-
-# Build rule for target.
-Exp6_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Exp6_3
-.PHONY : Exp6_3
-
-# fast build rule for target.
-Exp6_3/fast:
-	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_3\CMakeFiles\Exp6_3.dir\build.make Chapter06/Example/StackQueue/Exp6_3/CMakeFiles/Exp6_3.dir/build
-.PHONY : Exp6_3/fast
-
-#=============================================================================
-# Target rules for targets named Exp6_4
-
-# Build rule for target.
-Exp6_4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Exp6_4
-.PHONY : Exp6_4
-
-# fast build rule for target.
-Exp6_4/fast:
-	$(MAKE) -f Chapter06\Example\List\Exp6_4\CMakeFiles\Exp6_4.dir\build.make Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/build
-.PHONY : Exp6_4/fast
-
-#=============================================================================
-# Target rules for targets named Exp6_5
-
-# Build rule for target.
-Exp6_5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Exp6_5
-.PHONY : Exp6_5
-
-# fast build rule for target.
-Exp6_5/fast:
-	$(MAKE) -f Chapter06\Example\List\Exp6_5\CMakeFiles\Exp6_5.dir\build.make Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/build
-.PHONY : Exp6_5/fast
-
-#=============================================================================
-# Target rules for targets named Exp6_6
-
-# Build rule for target.
-Exp6_6: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Exp6_6
-.PHONY : Exp6_6
-
-# fast build rule for target.
-Exp6_6/fast:
-	$(MAKE) -f Chapter06\Example\Tree\Exp6_6\CMakeFiles\Exp6_6.dir\build.make Chapter06/Example/Tree/Exp6_6/CMakeFiles/Exp6_6.dir/build
-.PHONY : Exp6_6/fast
 
 # Help Target
 help:
@@ -195,12 +117,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Exp6_1
-	@echo ... Exp6_2
-	@echo ... Exp6_3
-	@echo ... Exp6_4
-	@echo ... Exp6_5
-	@echo ... Exp6_6
 .PHONY : help
 
 
@@ -212,6 +128,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d c:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
