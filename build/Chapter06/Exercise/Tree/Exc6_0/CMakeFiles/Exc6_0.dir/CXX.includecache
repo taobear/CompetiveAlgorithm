@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/InOrderTraversal.cpp
+Traversal.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Traversal.h
+stack
+-
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/PostOrderTraversal.cpp
+Traversal.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Traversal.h
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/PreOrderTraversal.cpp
+Traversal.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Traversal.h
+stack
+-
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Traversal.h
+Tree.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Tree.h
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Tree.cpp
+Tree.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Tree.h
+new
+-
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Tree.h
+vector
+-
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/test_Traversal.cpp
+Traversal.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Traversal.h
+vector
+-
+iostream
+-
+

@@ -1,0 +1,1 @@
+add_executable(Exc6_0 test_Traversal.cpp InOrderTraversal.cpp PostOrderTraversal.cpp PreOrderTraversal.cpp Tree.cpp)

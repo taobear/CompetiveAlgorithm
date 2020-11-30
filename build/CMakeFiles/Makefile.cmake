@@ -19,6 +19,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Chapter06/Example/StackQueue/Exp6_3/CMakeLists.txt"
   "../Chapter06/Example/Tree/CMakeLists.txt"
   "../Chapter06/Example/Tree/Exp6_6/CMakeLists.txt"
+  "../Chapter06/Exercise/CMakeLists.txt"
+  "../Chapter06/Exercise/Tree/CMakeLists.txt"
+  "../Chapter06/Exercise/Tree/Exc6_0/CMakeLists.txt"
   "CMakeFiles/3.10.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeRCCompiler.cmake"
@@ -65,6 +68,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Chapter06/Example/List/Exp6_5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter06/Example/Tree/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter06/Example/Tree/Exp6_6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter06/Exercise/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter06/Exercise/Tree/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter06/Exercise/Tree/Exc6_0/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -75,4 +81,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/DependInfo.cmake"
   "Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/DependInfo.cmake"
   "Chapter06/Example/Tree/Exp6_6/CMakeFiles/Exp6_6.dir/DependInfo.cmake"
+  "Chapter06/Exercise/Tree/Exc6_0/CMakeFiles/Exc6_0.dir/DependInfo.cmake"
   )

@@ -53,5 +53,30 @@
   "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_6",
   "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_6.dir\\DroppingBalls.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\Tree\\Exp6_6\\DroppingBalls.cpp",
   "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_6/DroppingBalls.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Exercise/Tree/Exc6_0",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exc6_0.dir\\test_Traversal.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Exercise\\Tree\\Exc6_0\\test_Traversal.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/test_Traversal.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Exercise/Tree/Exc6_0",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exc6_0.dir\\InOrderTraversal.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Exercise\\Tree\\Exc6_0\\InOrderTraversal.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/InOrderTraversal.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Exercise/Tree/Exc6_0",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exc6_0.dir\\PostOrderTraversal.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Exercise\\Tree\\Exc6_0\\PostOrderTraversal.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/PostOrderTraversal.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Exercise/Tree/Exc6_0",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exc6_0.dir\\PreOrderTraversal.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Exercise\\Tree\\Exc6_0\\PreOrderTraversal.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/PreOrderTraversal.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Exercise/Tree/Exc6_0",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exc6_0.dir\\Tree.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Exercise\\Tree\\Exc6_0\\Tree.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/Tree.cpp"
 }
 ]
