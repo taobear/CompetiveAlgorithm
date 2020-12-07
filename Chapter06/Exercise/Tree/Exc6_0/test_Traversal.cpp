@@ -20,6 +20,29 @@ void print_1d_nums(const vector<int>& nums)
     cout << nums.back() << "]" << endl;
 }
 
+void test1(TreeNode *root)
+{
+    cout << "test1(): " << endl;
+    vector<int> nums;
+    preOrder(root, nums);
+    print_1d_nums(nums);
+}
+
+void test2(TreeNode *root)
+{
+    cout << "test2(): " << endl;
+    vector<int> nums;
+    inOrder(root, nums);
+    print_1d_nums(nums);
+}
+
+void test3(TreeNode* root)
+{
+    cout << "test2(): " << endl;
+    vector<int> nums;
+    postOrder(root, nums);
+    print_1d_nums(nums);
+}
 
 int main(int argc, char **argv)
 {
@@ -27,15 +50,11 @@ int main(int argc, char **argv)
 
     TreeNode *root = build(input);
 
-    cout << "test1(): " << endl;
-    vector<int> preNums;
-    preOrder(root, preNums);
-    print_1d_nums(preNums);
+    test1(root);
 
-    cout << "test2(): " << endl;
-    vector<int> inNums;
-    inOrder(root, inNums);
-    print_1d_nums(inNums);
+    test2(root);
+
+    test3(root);
 
     return 0;
 }

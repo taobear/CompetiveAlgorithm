@@ -10,19 +10,19 @@ void preOrder(TreeNode *root, vector<int> &nums)
 
     TreeNode *node = root;
 
-    while (node != nullptr || !stk.empty()) {
-        while (node != nullptr) {
-            stk.push(node);
-            nums.push_back(node->value);
-            node = node->left;   
-        }
+    // while (node != nullptr || !stk.empty()) {
+    //     while (node != nullptr) {
+    //         stk.push(node);
+    //         nums.push_back(node->value);
+    //         node = node->left;   
+    //     }
 
-        if (!stk.empty()) {
-            node = stk.top();
-            stk.pop();
-            node = node->right;
-        }
-    }
+    //     if (!stk.empty()) {
+    //         node = stk.top();
+    //         stk.pop();
+    //         node = node->right;
+    //     }
+    // }
 
     // if (root == nullptr) {
     //     return;
@@ -31,4 +31,15 @@ void preOrder(TreeNode *root, vector<int> &nums)
     // nums.push_back(root->value);
     // preOrder(root->left, nums);
     // preOrder(root->right, nums);
+
+    stk.push(node);
+    while (!stk.empty()) {
+        node = stk.top();
+        stk.pop();
+
+        nums.push_back(node->value);
+
+        if (node->right) stk.push(node->right);
+        if (node->left) stk.push(node->left);
+    }
 }
