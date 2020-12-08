@@ -25,14 +25,35 @@ int buildTree(int* inOrder, int inOrderSize, int* postOrder, int postOrderSize)
 
     g_left[root] = buildTree(inOrder, leftSize, postOrder, leftSize);
     g_right[root] = buildTree(inOrder + leftSize + 1, rightSize, postOrder + leftSize, rightSize);
+    return root;
 }
 
 void getMaxLeaf(int root, int currSum, int *maxLeaf)
 {
+    if (root == 0) {
+        return;
+    }
 
+    currSum += root;
+    if (g_left[root] == 0 && g_right[root] == 0) {
+        *maxLeaf = currSum > *maxLeaf ? currSum : *maxLeaf;
+        return;
+    }
+
+    if (g_left[root] != 0) {
+        getMaxLeaf(g_left[root], currSum, maxLeaf);
+    }
+
+    if (g_right[root] != 0) {
+        getMaxLeaf(g_right[root], currSum, maxLeaf);
+    }
 }
 
 int MaxWeightLeaf(int* inOrder, int inOrderSize, int* postOrder, int postOrderSize)
 {
+    int root = buildTree(inOrder, inOrderSize, postOrder, postOrderSize);
 
+    int maxLeaf = 0;
+    getMaxLeaf(0, 0, &maxLeaf);
+    return maxLeaf;
 }
