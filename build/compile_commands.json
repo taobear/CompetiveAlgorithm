@@ -55,6 +55,26 @@
   "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_6/DroppingBalls.cpp"
 },
 {
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_8",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_8.dir\\test_MinWeightLeaf.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\Tree\\Exp6_8\\test_MinWeightLeaf.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_8/test_MinWeightLeaf.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_8",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_8.dir\\MinWeightLeaf.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\Tree\\Exp6_8\\MinWeightLeaf.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_8/MinWeightLeaf.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_9",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_9.dir\\test_NotSoMobile.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\Tree\\Exp6_9\\test_NotSoMobile.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_9/test_NotSoMobile.cpp"
+},
+{
+  "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Example/Tree/Exp6_9",
+  "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exp6_9.dir\\NotSoMobile.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Example\\Tree\\Exp6_9\\NotSoMobile.cpp",
+  "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_9/NotSoMobile.cpp"
+},
+{
   "directory": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/build/Chapter06/Exercise/Tree/Exc6_0",
   "command": "C:\\mingw64\\bin\\g++.exe     -g -g   -std=gnu++14 -o CMakeFiles\\Exc6_0.dir\\test_Traversal.cpp.obj -c C:\\Users\\Administrator\\Desktop\\Miscellaneous\\CompetiveAlgorithm\\Chapter06\\Exercise\\Tree\\Exc6_0\\test_Traversal.cpp",
   "file": "C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Exercise/Tree/Exc6_0/test_Traversal.cpp"

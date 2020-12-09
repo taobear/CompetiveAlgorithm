@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_8/MinWeightLeaf.cpp
+MinWeightLeaf.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_8/MinWeightLeaf.h
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_8/MinWeightLeaf.h
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_8/test_MinWeightLeaf.cpp
+MinWeightLeaf.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_8/MinWeightLeaf.h
+stdio.h
+-
+

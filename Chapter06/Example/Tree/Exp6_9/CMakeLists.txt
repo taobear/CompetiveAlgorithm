@@ -1,0 +1,1 @@
+add_executable(Exp6_9 test_NotSoMobile.cpp NotSoMobile.cpp)

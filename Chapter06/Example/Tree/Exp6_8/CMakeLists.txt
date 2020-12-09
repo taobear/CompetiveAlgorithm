@@ -1,0 +1,1 @@
+add_executable(Exp6_8 test_MinWeightLeaf.cpp MinWeightLeaf.cpp)

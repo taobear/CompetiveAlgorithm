@@ -1,9 +1,14 @@
-#include "MaxWeightLeaf.h"
+#include "MinWeightLeaf.h"
 
 #define MAXV (10000 + 10)
 
 int g_left[MAXV];
 int g_right[MAXV];
+
+int min(int a, int b)
+{
+    return a > b ? b : a;
+}
 
 int buildTree(int* inOrder, int inOrderSize, int* postOrder, int postOrderSize)
 {
@@ -28,7 +33,7 @@ int buildTree(int* inOrder, int inOrderSize, int* postOrder, int postOrderSize)
     return root;
 }
 
-void getMaxLeaf(int root, int currSum, int *maxLeaf)
+void getMinLeaf(int root, int currSum, int *minLeaf, int *minSumLeaf)
 {
     if (root == 0) {
         return;
@@ -36,24 +41,31 @@ void getMaxLeaf(int root, int currSum, int *maxLeaf)
 
     currSum += root;
     if (g_left[root] == 0 && g_right[root] == 0) {
-        *maxLeaf = currSum > *maxLeaf ? currSum : *maxLeaf;
+        if (currSum < *minSumLeaf) {
+            *minLeaf = root;
+            *minSumLeaf = currSum;
+        } else if (currSum == *minSumLeaf) {
+            *minLeaf = min(*minLeaf, root);
+        }
+
         return;
-    }
-
+    } 
+    
     if (g_left[root] != 0) {
-        getMaxLeaf(g_left[root], currSum, maxLeaf);
+        getMinLeaf(g_left[root], currSum, minLeaf, minSumLeaf);
     }
-
+    
     if (g_right[root] != 0) {
-        getMaxLeaf(g_right[root], currSum, maxLeaf);
+        getMinLeaf(g_right[root], currSum, minLeaf, minSumLeaf);
     }
 }
 
-int MaxWeightLeaf(int* inOrder, int inOrderSize, int* postOrder, int postOrderSize)
+int MinWeightLeaf(int* inOrder, int inOrderSize, int* postOrder, int postOrderSize)
 {
     int root = buildTree(inOrder, inOrderSize, postOrder, postOrderSize);
 
-    int maxLeaf = 0;
-    getMaxLeaf(0, 0, &maxLeaf);
-    return maxLeaf;
+    int minLeaf = MAXV, minSumLeaf = MAXV;
+    getMinLeaf(root, 0, &minLeaf, &minSumLeaf);
+
+    return minLeaf;
 }

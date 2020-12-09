@@ -188,6 +188,32 @@ Exp6_6/fast:
 .PHONY : Exp6_6/fast
 
 #=============================================================================
+# Target rules for targets named Exp6_8
+
+# Build rule for target.
+Exp6_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Exp6_8
+.PHONY : Exp6_8
+
+# fast build rule for target.
+Exp6_8/fast:
+	$(MAKE) -f Chapter06\Example\Tree\Exp6_8\CMakeFiles\Exp6_8.dir\build.make Chapter06/Example/Tree/Exp6_8/CMakeFiles/Exp6_8.dir/build
+.PHONY : Exp6_8/fast
+
+#=============================================================================
+# Target rules for targets named Exp6_9
+
+# Build rule for target.
+Exp6_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Exp6_9
+.PHONY : Exp6_9
+
+# fast build rule for target.
+Exp6_9/fast:
+	$(MAKE) -f Chapter06\Example\Tree\Exp6_9\CMakeFiles\Exp6_9.dir\build.make Chapter06/Example/Tree/Exp6_9/CMakeFiles/Exp6_9.dir/build
+.PHONY : Exp6_9/fast
+
+#=============================================================================
 # Target rules for targets named Exc6_0
 
 # Build rule for target.
@@ -214,6 +240,8 @@ help:
 	@echo ... Exp6_4
 	@echo ... Exp6_5
 	@echo ... Exp6_6
+	@echo ... Exp6_8
+	@echo ... Exp6_9
 	@echo ... Exc6_0
 .PHONY : help
 
