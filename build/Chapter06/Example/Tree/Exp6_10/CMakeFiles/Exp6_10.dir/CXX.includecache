@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_10/TheFallingLeaves.cpp
+TheFallingLeaves.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_10/TheFallingLeaves.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_10/TheFallingLeaves.h
+
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_10/test_TheFallingLeaves.cpp
+TheFallingLeaves.h
+C:/Users/Administrator/Desktop/Miscellaneous/CompetiveAlgorithm/Chapter06/Example/Tree/Exp6_10/TheFallingLeaves.h
+stdio.h
+-
+stdlib.h
+-
+

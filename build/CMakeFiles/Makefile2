@@ -207,7 +207,7 @@ Chapter06/Example/StackQueue/Exp6_2/preinstall:
 Chapter06/Example/StackQueue/Exp6_2/CMakeFiles/Exp6_2.dir/all:
 	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_2\CMakeFiles\Exp6_2.dir\build.make Chapter06/Example/StackQueue/Exp6_2/CMakeFiles/Exp6_2.dir/depend
 	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_2\CMakeFiles\Exp6_2.dir\build.make Chapter06/Example/StackQueue/Exp6_2/CMakeFiles/Exp6_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=9,10,11 "Built target Exp6_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=12,13,14 "Built target Exp6_2"
 .PHONY : Chapter06/Example/StackQueue/Exp6_2/CMakeFiles/Exp6_2.dir/all
 
 # Include target in all.
@@ -262,7 +262,7 @@ Chapter06/Example/StackQueue/Exp6_3/preinstall:
 Chapter06/Example/StackQueue/Exp6_3/CMakeFiles/Exp6_3.dir/all:
 	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_3\CMakeFiles\Exp6_3.dir\build.make Chapter06/Example/StackQueue/Exp6_3/CMakeFiles/Exp6_3.dir/depend
 	$(MAKE) -f Chapter06\Example\StackQueue\Exp6_3\CMakeFiles\Exp6_3.dir\build.make Chapter06/Example/StackQueue/Exp6_3/CMakeFiles/Exp6_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=12,13,14 "Built target Exp6_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=15,16,17 "Built target Exp6_3"
 .PHONY : Chapter06/Example/StackQueue/Exp6_3/CMakeFiles/Exp6_3.dir/all
 
 # Include target in all.
@@ -338,7 +338,7 @@ Chapter06/Example/List/Exp6_4/preinstall:
 Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/all:
 	$(MAKE) -f Chapter06\Example\List\Exp6_4\CMakeFiles\Exp6_4.dir\build.make Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/depend
 	$(MAKE) -f Chapter06\Example\List\Exp6_4\CMakeFiles\Exp6_4.dir\build.make Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=15,16,17 "Built target Exp6_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=18,19,20 "Built target Exp6_4"
 .PHONY : Chapter06/Example/List/Exp6_4/CMakeFiles/Exp6_4.dir/all
 
 # Include target in all.
@@ -393,7 +393,7 @@ Chapter06/Example/List/Exp6_5/preinstall:
 Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/all:
 	$(MAKE) -f Chapter06\Example\List\Exp6_5\CMakeFiles\Exp6_5.dir\build.make Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/depend
 	$(MAKE) -f Chapter06\Example\List\Exp6_5\CMakeFiles\Exp6_5.dir\build.make Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=18,19,20 "Built target Exp6_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=21,22,23 "Built target Exp6_5"
 .PHONY : Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/all
 
 # Include target in all.
@@ -430,6 +430,7 @@ clean: Chapter06/Example/List/Exp6_5/CMakeFiles/Exp6_5.dir/clean
 Chapter06/Example/Tree/all: Chapter06/Example/Tree/Exp6_6/all
 Chapter06/Example/Tree/all: Chapter06/Example/Tree/Exp6_8/all
 Chapter06/Example/Tree/all: Chapter06/Example/Tree/Exp6_9/all
+Chapter06/Example/Tree/all: Chapter06/Example/Tree/Exp6_10/all
 
 .PHONY : Chapter06/Example/Tree/all
 
@@ -437,6 +438,7 @@ Chapter06/Example/Tree/all: Chapter06/Example/Tree/Exp6_9/all
 Chapter06/Example/Tree/clean: Chapter06/Example/Tree/Exp6_6/clean
 Chapter06/Example/Tree/clean: Chapter06/Example/Tree/Exp6_8/clean
 Chapter06/Example/Tree/clean: Chapter06/Example/Tree/Exp6_9/clean
+Chapter06/Example/Tree/clean: Chapter06/Example/Tree/Exp6_10/clean
 
 .PHONY : Chapter06/Example/Tree/clean
 
@@ -444,6 +446,7 @@ Chapter06/Example/Tree/clean: Chapter06/Example/Tree/Exp6_9/clean
 Chapter06/Example/Tree/preinstall: Chapter06/Example/Tree/Exp6_6/preinstall
 Chapter06/Example/Tree/preinstall: Chapter06/Example/Tree/Exp6_8/preinstall
 Chapter06/Example/Tree/preinstall: Chapter06/Example/Tree/Exp6_9/preinstall
+Chapter06/Example/Tree/preinstall: Chapter06/Example/Tree/Exp6_10/preinstall
 
 .PHONY : Chapter06/Example/Tree/preinstall
 
@@ -472,7 +475,7 @@ Chapter06/Example/Tree/Exp6_6/preinstall:
 Chapter06/Example/Tree/Exp6_6/CMakeFiles/Exp6_6.dir/all:
 	$(MAKE) -f Chapter06\Example\Tree\Exp6_6\CMakeFiles\Exp6_6.dir\build.make Chapter06/Example/Tree/Exp6_6/CMakeFiles/Exp6_6.dir/depend
 	$(MAKE) -f Chapter06\Example\Tree\Exp6_6\CMakeFiles\Exp6_6.dir\build.make Chapter06/Example/Tree/Exp6_6/CMakeFiles/Exp6_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=21,22,23 "Built target Exp6_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=24,25,26 "Built target Exp6_6"
 .PHONY : Chapter06/Example/Tree/Exp6_6/CMakeFiles/Exp6_6.dir/all
 
 # Include target in all.
@@ -527,7 +530,7 @@ Chapter06/Example/Tree/Exp6_8/preinstall:
 Chapter06/Example/Tree/Exp6_8/CMakeFiles/Exp6_8.dir/all:
 	$(MAKE) -f Chapter06\Example\Tree\Exp6_8\CMakeFiles\Exp6_8.dir\build.make Chapter06/Example/Tree/Exp6_8/CMakeFiles/Exp6_8.dir/depend
 	$(MAKE) -f Chapter06\Example\Tree\Exp6_8\CMakeFiles\Exp6_8.dir\build.make Chapter06/Example/Tree/Exp6_8/CMakeFiles/Exp6_8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=24,25,26 "Built target Exp6_8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=27,28,29 "Built target Exp6_8"
 .PHONY : Chapter06/Example/Tree/Exp6_8/CMakeFiles/Exp6_8.dir/all
 
 # Include target in all.
@@ -582,7 +585,7 @@ Chapter06/Example/Tree/Exp6_9/preinstall:
 Chapter06/Example/Tree/Exp6_9/CMakeFiles/Exp6_9.dir/all:
 	$(MAKE) -f Chapter06\Example\Tree\Exp6_9\CMakeFiles\Exp6_9.dir\build.make Chapter06/Example/Tree/Exp6_9/CMakeFiles/Exp6_9.dir/depend
 	$(MAKE) -f Chapter06\Example\Tree\Exp6_9\CMakeFiles\Exp6_9.dir\build.make Chapter06/Example/Tree/Exp6_9/CMakeFiles/Exp6_9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=27,28,29 "Built target Exp6_9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=30,31,32 "Built target Exp6_9"
 .PHONY : Chapter06/Example/Tree/Exp6_9/CMakeFiles/Exp6_9.dir/all
 
 # Include target in all.
@@ -609,6 +612,61 @@ Chapter06/Example/Tree/Exp6_9/CMakeFiles/Exp6_9.dir/clean:
 
 # clean rule for target.
 clean: Chapter06/Example/Tree/Exp6_9/CMakeFiles/Exp6_9.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Chapter06/Example/Tree/Exp6_10
+
+# Convenience name for "all" pass in the directory.
+Chapter06/Example/Tree/Exp6_10/all: Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/all
+
+.PHONY : Chapter06/Example/Tree/Exp6_10/all
+
+# Convenience name for "clean" pass in the directory.
+Chapter06/Example/Tree/Exp6_10/clean: Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/clean
+
+.PHONY : Chapter06/Example/Tree/Exp6_10/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Chapter06/Example/Tree/Exp6_10/preinstall:
+
+.PHONY : Chapter06/Example/Tree/Exp6_10/preinstall
+
+#=============================================================================
+# Target rules for target Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir
+
+# All Build rule for target.
+Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/all:
+	$(MAKE) -f Chapter06\Example\Tree\Exp6_10\CMakeFiles\Exp6_10.dir\build.make Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/depend
+	$(MAKE) -f Chapter06\Example\Tree\Exp6_10\CMakeFiles\Exp6_10.dir\build.make Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles --progress-num=9,10,11 "Built target Exp6_10"
+.PHONY : Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/all
+
+# Include target in all.
+all: Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Miscellaneous\CompetiveAlgorithm\build\CMakeFiles 0
+.PHONY : Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/rule
+
+# Convenience name for target.
+Exp6_10: Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/rule
+
+.PHONY : Exp6_10
+
+# clean rule for target.
+Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/clean:
+	$(MAKE) -f Chapter06\Example\Tree\Exp6_10\CMakeFiles\Exp6_10.dir\build.make Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/clean
+.PHONY : Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/clean
+
+# clean rule for target.
+clean: Chapter06/Example/Tree/Exp6_10/CMakeFiles/Exp6_10.dir/clean
 
 .PHONY : clean
 
